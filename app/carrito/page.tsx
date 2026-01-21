@@ -23,7 +23,7 @@ export default function CarritoPage() {
 
   if (items.length === 0) {
     return (
-      <div className="pt-32 pb-20 min-h-screen">
+      <div className="pt-8 pb-20 min-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center py-20">
             <ShoppingBag className="w-20 h-20 mx-auto text-kestrel-gray mb-6" />
@@ -46,7 +46,7 @@ export default function CarritoPage() {
   }
 
   return (
-    <div className="pt-32 pb-20">
+    <div className="pt-8 pb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex items-center justify-between mb-8">

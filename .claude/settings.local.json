@@ -6,7 +6,12 @@
       "Bash(npm run dev:*)",
       "Bash(gh auth status:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: Kestrel E-commerce - Complete implementation\n\n- Next.js 14+ with App Router and TypeScript\n- Tailwind CSS with custom brand colors\n- Zustand cart store with persistence\n- 17 products across 5 categories\n- WhatsApp integration for orders\n- Responsive design with dark theme\n- SEO optimized metadata\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: Kestrel E-commerce - Complete implementation\n\n- Next.js 14+ with App Router and TypeScript\n- Tailwind CSS with custom brand colors\n- Zustand cart store with persistence\n- 17 products across 5 categories\n- WhatsApp integration for orders\n- Responsive design with dark theme\n- SEO optimized metadata\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh repo create:*)",
+      "Bash(npx vercel:*)",
+      "Bash(grep:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ]
   }
 }

@@ -27,10 +27,10 @@ export default function Header() {
     <>
       <header
         className={cn(
-          'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+          'transition-all duration-300',
           isScrolled
             ? 'bg-kestrel-black/95 backdrop-blur-md shadow-lg'
-            : 'bg-transparent'
+            : 'bg-kestrel-black/80 backdrop-blur-sm'
         )}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -49,8 +49,13 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${oswald.variable} ${outfit.variable} antialiased bg-kestrel-black text-white`}>
-        <AnnouncementBar />
-        <Header />
+        {/* Fixed header container */}
+        <div className="fixed top-0 left-0 right-0 z-50">
+          <AnnouncementBar />
+          <Header />
+        </div>
+        {/* Spacer for fixed header */}
+        <div className="h-[116px]" />
         <main className="min-h-screen">
           {children}
         </main>

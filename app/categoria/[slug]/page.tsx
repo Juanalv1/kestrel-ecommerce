@@ -46,7 +46,7 @@ export default async function CategoryPage({ params }: Props) {
   const categoryProducts = getProductsByCategory(slug);
 
   return (
-    <div className="pt-20">
+    <div className="pt-8">
       {/* Hero */}
       <div className="relative h-64 sm:h-80 overflow-hidden">
         <Image
